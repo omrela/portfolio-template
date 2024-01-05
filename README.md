@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Template
 
-## Getting Started
+Hey! I made this quick and simple portfolio template for friends that are new to programming and want a simple portfolio. I spun this project up during my lunch, so there might be some small issues within it. Feel free to tweak it and repurpose it however you would like!
 
-First, run the development server:
+[Live demo](https://portfolio-template-indol.vercel.app/)
 
-```bash
-npm run dev
-# or
+![alt text](https://firebasestorage.googleapis.com/v0/b/liveimages-eb058.appspot.com/o/port-temp-img.png?alt=media&token=6ca12f5a-4490-4b5c-b3d9-20c8d4ca7407)
+
+### Installation
+
+A step by step series of examples that tell you how to get a development env running
+
+1. Instal dependencies & running local env
+
+```
+Using yarn
+
+yarn install
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```
+Using npm
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+npm install
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+Using pnpm
 
-## Learn More
+pnpm install
+pnpm dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+2. Navigate to `/src/app/data.ts`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Replace the placeholder data with your name, projects, etc. You can update the images used by importing them into the `/public` or directly linking image URLS that are hosted on 3rd party services. I have configured images.unsplash.com by default in the `next.config.js` file.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+I highly recommend deploying this project via Vercel. It is quick and simple. They also have a very generous free tier.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Built With
+
+- [Next 14](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
