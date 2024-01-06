@@ -5,6 +5,8 @@ Hey! I made this quick and simple portfolio template for friends that are new to
 [Live demo](https://portfolio-template-indol.vercel.app/)
 
 ![alt text](https://firebasestorage.googleapis.com/v0/b/liveimages-eb058.appspot.com/o/port-temp-img.png?alt=media&token=6ca12f5a-4490-4b5c-b3d9-20c8d4ca7407)
+![alt text](https://firebasestorage.googleapis.com/v0/b/liveimages-eb058.appspot.com/o/port-temp-metadata.png?alt=media&token=8d63bf66-2c09-4b62-821a-500828353019)
+
 
 ### Installation
 
